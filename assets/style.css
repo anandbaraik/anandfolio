@@ -5,6 +5,17 @@
     --primary-color: #7c3aed;
     --secondary-color: #6b7280;
     --of-white-color: #e2e8f0;
+    --gradient-color-1: #03d6f3;
+    --gradient-color-2: #458ff6;
+}
+
+.p-0{
+    padding: 0px;
+}
+
+.author{
+    font-family: 'Dancing Script';
+    letter-spacing: 0.2rem;
 }
 
 body{
@@ -90,10 +101,12 @@ hr {
 
 /* Nav */
 .navigation{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(39.97deg,var(--gradient-color-1) .79%,var(--gradient-color-2) 79.79%);
     color: #fff;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,11 +147,13 @@ hr {
 
 /* Footer */
 .footer{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(39.97deg,var(--gradient-color-1) .79%,var(--gradient-color-2) 79.79%);
     padding: 1rem;
     color: #fff;
     text-align: center;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .footer .heading{
     font-weight: bold;
