@@ -32,6 +32,21 @@ p{
     margin-bottom: 0.1rem;
 }
 
+.pl-1{
+    padding-left: 1.1rem;
+}
+
+.pl-0{
+    padding-left: 0.1rem;
+}
+
+.list-style-arrow li:before{
+    content: '\2714';
+    color: #5d9e19;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
 .author{
     font-family: 'Dancing Script';
     letter-spacing: 0.2rem;
@@ -163,7 +178,7 @@ hr {
 
 /* Heaader */
 .hero{
-    padding: 2rem;
+    padding: 1.2rem;
 }
 
 .hero-img{
@@ -196,6 +211,8 @@ hr {
 /* Section */
 .section{
     padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
 }
 
 .section h1{
