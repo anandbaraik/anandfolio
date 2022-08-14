@@ -124,7 +124,7 @@ hr {
 }
 
 .link-primary{
-    background-color: var(--primary-color);
+    background: linear-gradient(39.97deg,var(--gradient-color-1) .79%,var(--gradient-color-2) 79.79%);
     color: #ffffff;
     border-radius: 0.5rem;
 }
