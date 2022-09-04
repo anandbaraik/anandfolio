@@ -51,7 +51,9 @@ p{
 .pl-0{
     padding-left: 0.1rem;
 }
-
+.mr-1{
+    margin-right: 0.5rem;
+}
 .list-style-arrow li:before{
     content: '\2714';
     color: #5d9e19;
@@ -281,4 +283,12 @@ hr {
     content: "";
     display: table;
     clear: both;
+}
+.project-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-btns > a {
+    margin-bottom: 0.5rem;
 }
